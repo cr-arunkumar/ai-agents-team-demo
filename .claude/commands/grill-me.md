@@ -1,0 +1,1 @@
+Load and execute the grill-me skill. Interview the user relentlessly about the feature before any code is written. Do not stop until you have zero ambiguity. Minimum 10 questions. Cover: business logic, users, edge cases, dependencies, constraints, definition of done, security, and scale.

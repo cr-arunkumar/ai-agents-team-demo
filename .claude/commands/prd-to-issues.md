@@ -1,0 +1,1 @@
+Load and execute the prd-to-issues skill. Break the PRD into vertical tracer bullet slices — ordered to flush unknown unknowns first. Each issue must be self-contained and implementable by one agent in one session. Never combine DB schema + UI in one issue.

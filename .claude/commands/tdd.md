@@ -1,0 +1,1 @@
+Load and execute the tdd skill. Enforce Red -> Green -> Refactor on the current implementation task. Never skip the Red step — a test that was never failing proves nothing. Coverage on new code must exceed 80% before moving on.

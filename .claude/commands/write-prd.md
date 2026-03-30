@@ -1,0 +1,1 @@
+Load and execute the write-prd skill. Convert the grill-me session into a structured PRD formatted as a GitHub issue. Every definition-of-done item must be testable. No vague requirements. Out of scope section is mandatory.

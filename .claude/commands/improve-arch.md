@@ -1,0 +1,1 @@
+Load and execute the improve-arch skill. Read the codebase, produce an architecture report identifying shallow modules, oversized functions, premature abstractions, dead code, and duplication. Score issues by Impact x Effort and fix the highest-value items one at a time. Run weekly.
