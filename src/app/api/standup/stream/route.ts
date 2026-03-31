@@ -3,8 +3,8 @@ import { streamText } from 'ai'
 import { geminiFlash } from '@/lib/ai'
 
 export async function POST(request: NextRequest) {
-  const body = await request.json() as { rawInput?: string }
-  const { rawInput } = body
+  const body = await request.json() as { prompt?: string; rawInput?: string }
+  const rawInput = body.prompt ?? body.rawInput
 
   if (!rawInput || !rawInput.trim()) {
     return new Response(JSON.stringify({ error: 'rawInput is required' }), {
