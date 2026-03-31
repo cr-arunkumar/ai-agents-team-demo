@@ -5,6 +5,7 @@ import { useCompletion } from '@ai-sdk/react'
 export function useStandupStream() {
   const { completion, complete, isLoading, error, stop } = useCompletion({
     api: '/api/standup/stream',
+    streamProtocol: 'text',
     onError: (err) => console.error('Stream error:', err),
   })
 
