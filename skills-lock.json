@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "better-auth": {
+      "source": "jackspace/claudeskillz",
+      "sourceType": "github",
+      "computedHash": "33ce19de2a44622f492359ce470ed468b4c8722020159d8c6ebd0087e1fc27c6"
+    },
     "prisma-cli": {
       "source": "prisma/skills",
       "sourceType": "github",
