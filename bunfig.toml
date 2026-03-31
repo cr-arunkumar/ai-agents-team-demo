@@ -1,0 +1,4 @@
+# Unit tests live under src/__tests__ and are executed by Vitest (happy-dom, vi.*).
+# Bun's native runner would pick them up and fail (no DOM, no Vitest mocks).
+[test]
+pathIgnorePatterns = ["src/__tests__/**"]
