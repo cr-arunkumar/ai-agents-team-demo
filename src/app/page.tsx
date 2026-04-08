@@ -7,6 +7,7 @@ import { StandupForm } from '@/components/standup-form'
 import { MoodCards } from '@/components/mood-cards'
 import { StreamingSummary } from '@/components/streaming-summary'
 import { RiskBanner } from '@/components/risk-banner'
+import { ThemeToggle } from '@/components/theme-toggle'
 import type { AnalyzeResponse } from '@/types/standup'
 
 export default function Home() {
@@ -39,13 +40,18 @@ export default function Home() {
 
   return (
     <main className="max-w-6xl mx-auto px-6 py-12">
-      <header className="mb-10 text-center">
-        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--foreground)' }}>
-          StandupAI
-        </h1>
-        <p className="mt-2 text-sm" style={{ color: 'var(--muted-foreground)' }}>
-          Turn standups into insights instantly
-        </p>
+      <header className="mb-10">
+        <div className="flex items-center justify-end mb-4">
+          <ThemeToggle />
+        </div>
+        <div className="text-center">
+          <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--foreground)' }}>
+            StandupAI
+          </h1>
+          <p className="mt-2 text-sm" style={{ color: 'var(--muted-foreground)' }}>
+            Turn standups into insights instantly
+          </p>
+        </div>
       </header>
 
       {!hasSubmitted ? (
